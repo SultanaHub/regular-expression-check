@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment Practice 2-Regular Expression Check</title>
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container mt-5 pt-5">
+
+        <section id="input-section" class="text-center">
+
+            <div class="form-group">
+                <label for="regular_expression" >Select Option</label>
+                <select class="form-control mx-auto" id="regular_expression"  style="width: 250px;" onchange="optionValue(event)"> <!-- onchange="optionValue(event)"-->
+                    <option value="0">Options</option>
+                  <option class="opt" value="1" >1. Email</option>
+                  <option class="opt" value="2">2. Post Code</option>
+                  <option class="opt" value="3">3. Phone Number</option>
+                </select>
+            </div>
+            <p></p>
+
+            <form id="input_form">
+                <input type="text" id="input_value" placeholder="Please enter your expression..">
+                <input type="submit" value="Submit">
+
+            </form>
+
+            <!-- message will display here-->
+        </section>
+
+      
+
+    </div>
+    
+
+
+
+
+    <script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
